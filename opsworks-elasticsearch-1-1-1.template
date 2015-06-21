@@ -23,7 +23,7 @@
         "CookbookRepo": {
             "Description": "GitURL",
             "Type": "String",
-            "Default": "https://github.com/placefull/opsworks-elasticsearch-cookbook"
+            "Default": "https://github.com/makapen/opsworks-elasticsearch-cookbook"
         }
     },
     "Conditions": {
