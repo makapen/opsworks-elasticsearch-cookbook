@@ -10,16 +10,7 @@
                 "No"
             ]
         },
-        "WebUsername": {
-            "Description": "WebUsername",
-            "Type": "String",
-            "Default": "username"
-        },
-        "WebPassword": {
-            "Description": "WebPassword",
-            "Type": "String",
-            "Default": "password"
-        },
+
         "CookbookRepo": {
             "Description": "GitURL",
             "Type": "String",
