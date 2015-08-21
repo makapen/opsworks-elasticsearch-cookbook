@@ -11,7 +11,7 @@
             ]
         },
         "WebUsername": {
-        "Description": "WebUsername",
+            "Description": "WebUsername",
             "Type": "String",
             "Default": "username"
         },
