@@ -10,16 +10,7 @@
                 "No"
             ]
         },
-        "WebUsername": {
-            "Description": "WebUsername",
-            "Type": "String",
-            "Default": "username"
-        },
-        "WebPassword": {
-            "Description": "WebPassword",
-            "Type": "String",
-            "Default": "password"
-        },
+
         "CookbookRepo": {
             "Description": "GitURL",
             "Type": "String",
@@ -157,16 +148,6 @@
                     },
                     "elasticsearch": {
                         "nginx": {
-                            "users": [
-                                {
-                                    "username": {
-                                        "Ref": "WebUsername"
-                                    },
-                                    "password": {
-                                        "Ref": "WebPassword"
-                                    }
-                                }
-                            ],
                             "allow_cluster_api": "true",
                             "port": 80
                         },
